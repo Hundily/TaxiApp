@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.9.1)
+  - FittedSheets (1.4.5)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - IQKeyboardManager (6.5.5)
+  - lottie-ios (3.1.6)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SnapKit (5.0.1)
+  - SwiftDate (6.1.0)
+  - SwiftGen (6.1.0)
+  - SwiftLint (0.39.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - FittedSheets
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManager
+  - lottie-ios
+  - SkyFloatingLabelTextField
+  - SnapKit
+  - SwiftDate
+  - SwiftGen
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FittedSheets
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManager
+    - lottie-ios
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SwiftDate
+    - SwiftGen
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FittedSheets: 7f754c9f6fb4ea330cbc57c652b594255f2a6819
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+
+PODFILE CHECKSUM: 88357b08d747a6a3f01766f0cd4c3b3f1be6c961
+
+COCOAPODS: 1.9.1

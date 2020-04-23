@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInVC" customModule="TaxiApp" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonSignIn" destination="N6O-zO-cJc" id="cit-jm-Fg6"/>
+                <outlet property="inputName" destination="CpQ-tY-Tkx" id="pSR-1A-nrT"/>
+                <outlet property="inputPassword" destination="xdn-Ar-aln" id="JUr-lz-ogt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="6LL-Ow-Kgn">
+                    <rect key="frame" x="36" y="253.33333333333331" width="342" height="149.33333333333331"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CmO-WW-4vS">
+                            <rect key="frame" x="0.0" y="0.0" width="342" height="66.666666666666671"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNZ-Df-hy6">
+                                    <rect key="frame" x="0.0" y="0.0" width="39.333333333333336" height="15.666666666666666"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CpQ-tY-Tkx" customClass="CustomTextField" customModule="TaxiApp" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="23.666666666666657" width="342" height="43"/>
+                                    <color key="backgroundColor" red="0.96862745098039216" green="0.97254901960784312" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="43" id="hdo-KW-OmD"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="CpQ-tY-Tkx" firstAttribute="leading" secondItem="CmO-WW-4vS" secondAttribute="leading" id="Gnf-mv-uJ8"/>
+                                <constraint firstAttribute="trailing" secondItem="CpQ-tY-Tkx" secondAttribute="trailing" id="knf-K9-1VH"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DJi-zZ-bCx">
+                            <rect key="frame" x="0.0" y="82.666666666666657" width="342" height="66.666666666666657"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZmP-zV-HYH">
+                                    <rect key="frame" x="0.0" y="0.0" width="76.333333333333329" height="15.666666666666666"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xdn-Ar-aln" customClass="CustomTextField" customModule="TaxiApp" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="23.666666666666686" width="342" height="43"/>
+                                    <color key="backgroundColor" red="0.96862745098039216" green="0.97254901960784312" blue="0.97647058823529409" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="43" id="urR-FG-Lta"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="xdn-Ar-aln" firstAttribute="leading" secondItem="DJi-zZ-bCx" secondAttribute="leading" id="Z7V-tW-fAm"/>
+                                <constraint firstAttribute="trailing" secondItem="xdn-Ar-aln" secondAttribute="trailing" id="hg9-xC-QX9"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="DJi-zZ-bCx" firstAttribute="leading" secondItem="6LL-Ow-Kgn" secondAttribute="leading" id="4gu-fW-aKV"/>
+                        <constraint firstAttribute="trailing" secondItem="CmO-WW-4vS" secondAttribute="trailing" id="d3O-QN-eW9"/>
+                        <constraint firstAttribute="trailing" secondItem="DJi-zZ-bCx" secondAttribute="trailing" id="dGX-be-cbk"/>
+                        <constraint firstItem="CmO-WW-4vS" firstAttribute="leading" secondItem="6LL-Ow-Kgn" secondAttribute="leading" id="daM-HK-k4g"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6O-zO-cJc" customClass="CustomButton" customModule="TaxiApp" customModuleProvider="target">
+                    <rect key="frame" x="36" y="452.66666666666669" width="342" height="60.000000000000057"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="wD6-Zo-jiA"/>
+                    </constraints>
+                    <state key="normal" title="Sign In"/>
+                    <connections>
+                        <action selector="actionSignInTouch:" destination="-1" eventType="touchUpInside" id="4qd-Qg-9A9"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="JDQ-V6-0L1">
+                    <rect key="frame" x="98" y="686" width="218" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dont have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBj-gs-8S5">
+                            <rect key="frame" x="0.0" y="0.0" width="156.66666666666666" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.59215686274509804" green="0.67843137254901964" blue="0.71372549019607845" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hXh-X2-tql">
+                            <rect key="frame" x="163.66666666666669" y="0.0" width="54.333333333333343" height="30"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Sign up">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="15"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                            <connections>
+                                <action selector="actionSignUpTouch:" destination="-1" eventType="touchUpInside" id="C1c-hp-0EL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="218" id="IPw-7b-tfI"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="N6O-zO-cJc" firstAttribute="top" secondItem="6LL-Ow-Kgn" secondAttribute="bottom" constant="50" id="6AF-a1-lsQ"/>
+                <constraint firstItem="6LL-Ow-Kgn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="36" id="A7Q-Zc-stb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JDQ-V6-0L1" secondAttribute="bottom" constant="20" id="Ae2-I4-feo"/>
+                <constraint firstItem="6LL-Ow-Kgn" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-40" id="LXe-K0-hcp"/>
+                <constraint firstItem="N6O-zO-cJc" firstAttribute="leading" secondItem="6LL-Ow-Kgn" secondAttribute="leading" id="X6e-2B-Yag"/>
+                <constraint firstItem="N6O-zO-cJc" firstAttribute="trailing" secondItem="6LL-Ow-Kgn" secondAttribute="trailing" id="dJo-ZW-mr2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6LL-Ow-Kgn" secondAttribute="trailing" constant="36" id="fNZ-7X-cY0"/>
+                <constraint firstItem="JDQ-V6-0L1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qlk-Zr-oZX"/>
+                <constraint firstItem="6LL-Ow-Kgn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yiI-mx-ChO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="150.67466266866569"/>
+        </view>
+    </objects>
+</document>
