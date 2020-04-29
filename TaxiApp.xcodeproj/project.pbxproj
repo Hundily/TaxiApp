@@ -14,6 +14,8 @@
 		A011BA622451DB54009A135D /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA612451DB54009A135D /* PaymentVC.swift */; };
 		A011BA652451DB67009A135D /* RideHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA642451DB67009A135D /* RideHistoryVC.swift */; };
 		A011BA6824520551009A135D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA6724520551009A135D /* ProfileVC.swift */; };
+		A0165332245364E70009FA26 /* RideHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0165330245364E70009FA26 /* RideHistoryCell.swift */; };
+		A0165333245364E70009FA26 /* RideHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0165331245364E70009FA26 /* RideHistoryCell.xib */; };
 		A035AB8E244E1D110044A8D1 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035AB8D244E1D110044A8D1 /* ContainerVC.swift */; };
 		A035AB90244E1D1A0044A8D1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035AB8F244E1D1A0044A8D1 /* HomeVC.swift */; };
 		A035AB92244E1D200044A8D1 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035AB91244E1D200044A8D1 /* MenuVC.swift */; };
@@ -76,6 +78,8 @@
 		A06B34EE24478D5C003745B3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06B34EC24478D5B003745B3 /* SignUpVC.xib */; };
 		A0D275412448E100008F37FC /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D275402448E100008F37FC /* UITextField+Extensions.swift */; };
 		A0D275432448E216008F37FC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D275422448E216008F37FC /* CustomTextField.swift */; };
+		A0EA19A92459C064001D2C20 /* StartEndAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */; };
+		A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */; };
 		E2822C14134E0135437DC530 /* Pods_TaxiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1912B59B9E4F060D330B6011 /* Pods_TaxiApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +94,8 @@
 		A011BA612451DB54009A135D /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		A011BA642451DB67009A135D /* RideHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryVC.swift; sourceTree = "<group>"; };
 		A011BA6724520551009A135D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A0165330245364E70009FA26 /* RideHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryCell.swift; sourceTree = "<group>"; };
+		A0165331245364E70009FA26 /* RideHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideHistoryCell.xib; sourceTree = "<group>"; };
 		A035AB8D244E1D110044A8D1 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		A035AB8F244E1D1A0044A8D1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A035AB91244E1D200044A8D1 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
@@ -155,6 +161,8 @@
 		A0D275402448E100008F37FC /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		A0D275422448E216008F37FC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A0D275442448F668008F37FC /* TaxiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxiApp.entitlements; sourceTree = "<group>"; };
+		A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartEndAddressView.swift; sourceTree = "<group>"; };
+		A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartEndAddressView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +237,7 @@
 		A011BA632451DB58009A135D /* RideHistory */ = {
 			isa = PBXGroup;
 			children = (
+				A016532F245364C40009FA26 /* Cell */,
 				A011BA642451DB67009A135D /* RideHistoryVC.swift */,
 			);
 			path = RideHistory;
@@ -240,6 +249,15 @@
 				A011BA6724520551009A135D /* ProfileVC.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		A016532F245364C40009FA26 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0165330245364E70009FA26 /* RideHistoryCell.swift */,
+				A0165331245364E70009FA26 /* RideHistoryCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A06B344224478406003745B3 = {
@@ -288,6 +306,7 @@
 		A06B346324478588003745B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A0EA19A72459BE03001D2C20 /* CustomView */,
 				A011BA662452053C009A135D /* Profile */,
 				A011BA632451DB58009A135D /* RideHistory */,
 				A011BA602451DB49009A135D /* Payment */,
@@ -514,6 +533,15 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		A0EA19A72459BE03001D2C20 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */,
+				A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -581,7 +609,9 @@
 				A06B34DC24478684003745B3 /* SFUIText-Bold.ttf in Resources */,
 				A06B34DA24478684003745B3 /* SFUIText-Regular.ttf in Resources */,
 				A06B34672447859B003745B3 /* SplashVC.xib in Resources */,
+				A0165333245364E70009FA26 /* RideHistoryCell.xib in Resources */,
 				A06B34EA244789F7003745B3 /* SignInVC.xib in Resources */,
+				A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */,
 				A06B34D924478684003745B3 /* SFUIText-Medium.ttf in Resources */,
 				A06B345B24478407003745B3 /* LaunchScreen.storyboard in Resources */,
 				A06B34E124478684003745B3 /* SFUIText-MediumItalic.ttf in Resources */,
@@ -730,10 +760,12 @@
 				A06B34992447865C003745B3 /* Environment.swift in Sources */,
 				A06B345124478406003745B3 /* SceneDelegate.swift in Sources */,
 				A06B34B42447865C003745B3 /* LoadingViewCell.swift in Sources */,
+				A0165332245364E70009FA26 /* RideHistoryCell.swift in Sources */,
 				A06B34AE2447865C003745B3 /* Codable+Extensions.swift in Sources */,
 				A06B34AB2447865C003745B3 /* String+Extensions.swift in Sources */,
 				A011BA652451DB67009A135D /* RideHistoryVC.swift in Sources */,
 				A06B34662447859B003745B3 /* SplashVC.swift in Sources */,
+				A0EA19A92459C064001D2C20 /* StartEndAddressView.swift in Sources */,
 				A06B34A92447865C003745B3 /* UIViewController+Extensions.swift in Sources */,
 				A011BA592451C614009A135D /* MenuOption.swift in Sources */,
 				A06B349F2447865C003745B3 /* WebserviceError.swift in Sources */,

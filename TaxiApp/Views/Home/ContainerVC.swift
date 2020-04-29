@@ -33,7 +33,8 @@ class ContainerVC: UIViewController {
     }
     
     override var prefersStatusBarHidden: Bool {
-        return isExpanded
+        return false
+//        return isExpanded
     }
     
     // MARK: - Handlers

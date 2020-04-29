@@ -27,6 +27,7 @@ internal enum Asset {
   internal static let imageProfile = ImageAsset(name: "imageProfile")
   internal static let photoDriver = ImageAsset(name: "photo_driver")
   internal static let photoUser = ImageAsset(name: "photo_user")
+  internal static let triangle = ImageAsset(name: "triangle")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 
