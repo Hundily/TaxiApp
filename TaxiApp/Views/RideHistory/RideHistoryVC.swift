@@ -74,4 +74,9 @@ extension RideHistoryVC: UITableViewDelegate, UITableViewDataSource {
         return 8
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let details = RideDetailsVC()
+        navigationController?.pushViewController(details, animated: true)
+    }
+    
 }

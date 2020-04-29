@@ -80,6 +80,8 @@
 		A0D275432448E216008F37FC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D275422448E216008F37FC /* CustomTextField.swift */; };
 		A0EA19A92459C064001D2C20 /* StartEndAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */; };
 		A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */; };
+		A0EA19B12459DAC4001D2C20 /* RideDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */; };
+		A0EA19B22459DAC4001D2C20 /* RideDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */; };
 		E2822C14134E0135437DC530 /* Pods_TaxiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1912B59B9E4F060D330B6011 /* Pods_TaxiApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +165,8 @@
 		A0D275442448F668008F37FC /* TaxiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxiApp.entitlements; sourceTree = "<group>"; };
 		A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartEndAddressView.swift; sourceTree = "<group>"; };
 		A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartEndAddressView.xib; sourceTree = "<group>"; };
+		A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsVC.swift; sourceTree = "<group>"; };
+		A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideDetailsVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +310,7 @@
 		A06B346324478588003745B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A0EA19AE2459DA8D001D2C20 /* RideDetails */,
 				A0EA19A72459BE03001D2C20 /* CustomView */,
 				A011BA662452053C009A135D /* Profile */,
 				A011BA632451DB58009A135D /* RideHistory */,
@@ -542,6 +547,15 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		A0EA19AE2459DA8D001D2C20 /* RideDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */,
+				A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */,
+			);
+			path = RideDetails;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -623,6 +637,7 @@
 				A06B34D524478684003745B3 /* Assets.xcassets in Resources */,
 				A06B34E224478684003745B3 /* SFUIText-SemiboldItalic.ttf in Resources */,
 				A06B34DD24478684003745B3 /* SFUIText-Light.ttf in Resources */,
+				A0EA19B22459DAC4001D2C20 /* RideDetailsVC.xib in Resources */,
 				A06B34DF24478684003745B3 /* SFUIText-LightItalic.ttf in Resources */,
 				A06B34D824478684003745B3 /* Localizable.strings in Resources */,
 				A06B34D624478684003745B3 /* loading.json in Resources */,
@@ -773,6 +788,7 @@
 				A06B34E9244789F7003745B3 /* SignInVC.swift in Sources */,
 				A06B34B52447865C003745B3 /* ToolBarButtonKeyboard.swift in Sources */,
 				A035AB94244E20980044A8D1 /* HomeVCDelegate.swift in Sources */,
+				A0EA19B12459DAC4001D2C20 /* RideDetailsVC.swift in Sources */,
 				A06B34D424478684003745B3 /* Colors.swift in Sources */,
 				A035AB92244E1D200044A8D1 /* MenuVC.swift in Sources */,
 				A06B34A42447865C003745B3 /* ParamsBuilder.swift in Sources */,

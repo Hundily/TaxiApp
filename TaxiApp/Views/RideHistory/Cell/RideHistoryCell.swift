@@ -11,6 +11,7 @@ import UIKit
 class RideHistoryCell: UITableViewCell {
     
     @IBOutlet weak var viewCell: UIView!
+    @IBOutlet weak var customView: StartEndAddressView!
 
     override func awakeFromNib() {
         super.awakeFromNib()

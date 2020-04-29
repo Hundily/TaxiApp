@@ -129,4 +129,9 @@ extension UIView {
             insets: insets
         )
     }
+    
+    func loadCustomView(viewClass: UIView) {
+        let nibName = String(describing: type(of: viewClass.self))
+        Bundle.main.loadNibNamed(nibName, owner: self, options: nil)
+    }
 }
