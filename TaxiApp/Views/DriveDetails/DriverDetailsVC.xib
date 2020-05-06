@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RideDetailsVC" customModule="TaxiApp" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DriverDetailsVC" customModule="TaxiApp" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="s6W-8e-ZgH" id="Y8z-iI-ELv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewDriverDetail" destination="dff-Dq-ohw" id="upm-eF-dKO"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -18,20 +18,22 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="s6W-8e-ZgH">
-                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dff-Dq-ohw" customClass="DriverDetail" customModule="TaxiApp" customModuleProvider="target">
+                    <rect key="frame" x="20" y="64" width="374" height="90"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                </tableView>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="OEB-zW-c0c"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="s6W-8e-ZgH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="FkC-go-Soi"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="s6W-8e-ZgH" secondAttribute="trailing" id="aRu-jX-bK5"/>
-                <constraint firstItem="s6W-8e-ZgH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gMp-gs-z5I"/>
-                <constraint firstAttribute="bottom" secondItem="s6W-8e-ZgH" secondAttribute="bottom" id="uyc-Cy-75A"/>
+                <constraint firstItem="dff-Dq-ohw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Lws-Nq-Pf4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dff-Dq-ohw" secondAttribute="trailing" constant="20" id="Ot3-mf-m9D"/>
+                <constraint firstItem="dff-Dq-ohw" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="suF-p7-cES"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="137.68115942028987" y="110.49107142857143"/>
+            <point key="canvasLocation" x="137.68115942028987" y="111.83035714285714"/>
         </view>
     </objects>
 </document>
