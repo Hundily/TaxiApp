@@ -78,10 +78,16 @@
 		A06B34EE24478D5C003745B3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06B34EC24478D5B003745B3 /* SignUpVC.xib */; };
 		A0D275412448E100008F37FC /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D275402448E100008F37FC /* UITextField+Extensions.swift */; };
 		A0D275432448E216008F37FC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D275422448E216008F37FC /* CustomTextField.swift */; };
+		A0E5CEEE24634C6D00E2C07D /* DriverDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5CEEC24634C6D00E2C07D /* DriverDetailsVC.swift */; };
+		A0E5CEEF24634C6D00E2C07D /* DriverDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E5CEED24634C6D00E2C07D /* DriverDetailsVC.xib */; };
 		A0EA19A92459C064001D2C20 /* StartEndAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */; };
 		A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */; };
 		A0EA19B12459DAC4001D2C20 /* RideDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */; };
 		A0EA19B22459DAC4001D2C20 /* RideDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */; };
+		A0EA19B62459F24B001D2C20 /* RideDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19B42459F24B001D2C20 /* RideDetailsCell.swift */; };
+		A0EA19B72459F24B001D2C20 /* RideDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19B52459F24B001D2C20 /* RideDetailsCell.xib */; };
+		A0EA19BB2459FCF6001D2C20 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19BA2459FCF6001D2C20 /* DriverDetail.swift */; };
+		A0EA19BD2459FD00001D2C20 /* DriverDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19BC2459FD00001D2C20 /* DriverDetail.xib */; };
 		E2822C14134E0135437DC530 /* Pods_TaxiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1912B59B9E4F060D330B6011 /* Pods_TaxiApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,10 +169,16 @@
 		A0D275402448E100008F37FC /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		A0D275422448E216008F37FC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A0D275442448F668008F37FC /* TaxiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxiApp.entitlements; sourceTree = "<group>"; };
+		A0E5CEEC24634C6D00E2C07D /* DriverDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetailsVC.swift; sourceTree = "<group>"; };
+		A0E5CEED24634C6D00E2C07D /* DriverDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverDetailsVC.xib; sourceTree = "<group>"; };
 		A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartEndAddressView.swift; sourceTree = "<group>"; };
 		A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartEndAddressView.xib; sourceTree = "<group>"; };
 		A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsVC.swift; sourceTree = "<group>"; };
 		A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideDetailsVC.xib; sourceTree = "<group>"; };
+		A0EA19B42459F24B001D2C20 /* RideDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsCell.swift; sourceTree = "<group>"; };
+		A0EA19B52459F24B001D2C20 /* RideDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideDetailsCell.xib; sourceTree = "<group>"; };
+		A0EA19BA2459FCF6001D2C20 /* DriverDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetail.swift; sourceTree = "<group>"; };
+		A0EA19BC2459FD00001D2C20 /* DriverDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverDetail.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +322,7 @@
 		A06B346324478588003745B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A0E5CEE72460A3F400E2C07D /* DriveDetails */,
 				A0EA19AE2459DA8D001D2C20 /* RideDetails */,
 				A0EA19A72459BE03001D2C20 /* CustomView */,
 				A011BA662452053C009A135D /* Profile */,
@@ -538,11 +551,20 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		A0E5CEE72460A3F400E2C07D /* DriveDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5CEEC24634C6D00E2C07D /* DriverDetailsVC.swift */,
+				A0E5CEED24634C6D00E2C07D /* DriverDetailsVC.xib */,
+			);
+			path = DriveDetails;
+			sourceTree = "<group>";
+		};
 		A0EA19A72459BE03001D2C20 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */,
-				A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */,
+				A0EA19B92459FCD5001D2C20 /* DriverDetail */,
+				A0EA19B82459FCCF001D2C20 /* StartEndAddressView */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -550,10 +572,38 @@
 		A0EA19AE2459DA8D001D2C20 /* RideDetails */ = {
 			isa = PBXGroup;
 			children = (
+				A0EA19B32459F231001D2C20 /* Cell */,
 				A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */,
 				A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */,
 			);
 			path = RideDetails;
+			sourceTree = "<group>";
+		};
+		A0EA19B32459F231001D2C20 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA19B42459F24B001D2C20 /* RideDetailsCell.swift */,
+				A0EA19B52459F24B001D2C20 /* RideDetailsCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A0EA19B82459FCCF001D2C20 /* StartEndAddressView */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */,
+				A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */,
+			);
+			path = StartEndAddressView;
+			sourceTree = "<group>";
+		};
+		A0EA19B92459FCD5001D2C20 /* DriverDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA19BA2459FCF6001D2C20 /* DriverDetail.swift */,
+				A0EA19BC2459FD00001D2C20 /* DriverDetail.xib */,
+			);
+			path = DriverDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -625,12 +675,15 @@
 				A06B34672447859B003745B3 /* SplashVC.xib in Resources */,
 				A0165333245364E70009FA26 /* RideHistoryCell.xib in Resources */,
 				A06B34EA244789F7003745B3 /* SignInVC.xib in Resources */,
+				A0EA19B72459F24B001D2C20 /* RideDetailsCell.xib in Resources */,
 				A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */,
 				A06B34D924478684003745B3 /* SFUIText-Medium.ttf in Resources */,
 				A06B345B24478407003745B3 /* LaunchScreen.storyboard in Resources */,
 				A06B34E124478684003745B3 /* SFUIText-MediumItalic.ttf in Resources */,
+				A0E5CEEF24634C6D00E2C07D /* DriverDetailsVC.xib in Resources */,
 				A06B34DE24478684003745B3 /* SFUIText-Semibold.ttf in Resources */,
 				A06B34E424478684003745B3 /* SFUIText-RegularItalic.ttf in Resources */,
+				A0EA19BD2459FD00001D2C20 /* DriverDetail.xib in Resources */,
 				A06B34DB24478684003745B3 /* SFUIText-Heavy.ttf in Resources */,
 				A06B34E024478684003745B3 /* SFUIText-BoldItalic.ttf in Resources */,
 				A06B34EE24478D5C003745B3 /* SignUpVC.xib in Resources */,
@@ -752,6 +805,7 @@
 				A035AB90244E1D1A0044A8D1 /* HomeVC.swift in Sources */,
 				A06B34A62447865C003745B3 /* LoadingManager.swift in Sources */,
 				A0D275412448E100008F37FC /* UITextField+Extensions.swift in Sources */,
+				A0E5CEEE24634C6D00E2C07D /* DriverDetailsVC.swift in Sources */,
 				A06B349B2447865C003745B3 /* Configuration.swift in Sources */,
 				A06B34AD2447865C003745B3 /* UISearchBar+Extensions.swift in Sources */,
 				A06B34B22447865C003745B3 /* CustomButton.swift in Sources */,
@@ -769,6 +823,7 @@
 				A06B349C2447865C003745B3 /* PaymentResponse.swift in Sources */,
 				A06B34D124478684003745B3 /* Strings.swift in Sources */,
 				A06B34B02447865C003745B3 /* Identifier.swift in Sources */,
+				A0EA19B62459F24B001D2C20 /* RideDetailsCell.swift in Sources */,
 				A06B34A22447865C003745B3 /* DefaultSessionManager.swift in Sources */,
 				A011BA562451BF5F009A135D /* MenuOptionCell.swift in Sources */,
 				A06B34D324478684003745B3 /* Fonts.swift in Sources */,
@@ -792,6 +847,7 @@
 				A06B34D424478684003745B3 /* Colors.swift in Sources */,
 				A035AB92244E1D200044A8D1 /* MenuVC.swift in Sources */,
 				A06B34A42447865C003745B3 /* ParamsBuilder.swift in Sources */,
+				A0EA19BB2459FCF6001D2C20 /* DriverDetail.swift in Sources */,
 				A06B34AF2447865C003745B3 /* UITableView+ReusableUtils.swift in Sources */,
 				A06B34A72447865C003745B3 /* CodeViewProtocol.swift in Sources */,
 				A06B34A32447865C003745B3 /* BaseWebservice.swift in Sources */,
