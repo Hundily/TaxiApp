@@ -134,4 +134,32 @@ extension UIView {
         let nibName = String(describing: type(of: viewClass.self))
         Bundle.main.loadNibNamed(nibName, owner: self, options: nil)
     }
+    
+    func addGradient(with layer: CAGradientLayer, gradientFrame: CGRect? = nil, colorSet: [UIColor],
+                     locations: [Double], startEndPoints: (CGPoint, CGPoint)? = nil) {
+        layer.frame = gradientFrame ?? self.bounds
+        layer.frame.origin = .zero
+
+        let layerColorSet = colorSet.map { $0.cgColor }
+        let layerLocations = locations.map { $0 as NSNumber }
+
+        layer.colors = layerColorSet
+        layer.locations = layerLocations
+
+        if let startEndPoints = startEndPoints {
+            layer.startPoint = startEndPoints.0
+            layer.endPoint = startEndPoints.1
+        }
+
+        self.layer.insertSublayer(layer, above: self.layer)
+    }
+    
+    func addShandowView(radius: CGFloat, cornerRadius: CGFloat) {
+        self.layer.masksToBounds = false
+        self.layer.shadowOpacity = 0.23
+        self.layer.shadowRadius = radius
+        self.layer.shadowOffset = CGSize(width: 0, height: 0)
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.cornerRadius = cornerRadius
+    }
 }

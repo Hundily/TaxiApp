@@ -17,6 +17,8 @@ class RideHistoryVC: UIViewController {
     
     private let kRideHistoryCell = "RideHistoryCell"
     
+    // MARK: - Life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -28,6 +30,11 @@ class RideHistoryVC: UIViewController {
         super.viewWillAppear(animated)
         navigationController?.navigationBar.isHidden = false
         navigationItem.title = "Ride History"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationItem.title = ""
     }
     
     override func viewDidAppear(_ animated: Bool) {

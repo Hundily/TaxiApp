@@ -21,12 +21,16 @@ internal enum Asset {
   internal static let icArrow = ImageAsset(name: "ic_arrow")
   internal static let icEdit = ImageAsset(name: "ic_edit")
   internal static let icEye = ImageAsset(name: "ic_eye")
+  internal static let icMastercard = ImageAsset(name: "ic_mastercard")
   internal static let icMenu = ImageAsset(name: "ic_menu")
   internal static let icSetloc = ImageAsset(name: "ic_setloc")
   internal static let icSuccess = ImageAsset(name: "ic_success")
   internal static let imageProfile = ImageAsset(name: "imageProfile")
+  internal static let map = ImageAsset(name: "map")
   internal static let photoDriver = ImageAsset(name: "photo_driver")
   internal static let photoUser = ImageAsset(name: "photo_user")
+  internal static let shapeStroke = ImageAsset(name: "shape_stroke")
+  internal static let star = ImageAsset(name: "star")
   internal static let triangle = ImageAsset(name: "triangle")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
