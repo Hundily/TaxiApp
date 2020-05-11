@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddPromoCodeVC" customModule="TaxiApp" customModuleProvider="target">
+            <connections>
+                <outlet property="textField" destination="GOx-JM-IkY" id="Hxl-He-axe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIL-yC-bcL" customClass="CustomButton" customModule="TaxiApp" customModuleProvider="target">
+                    <rect key="frame" x="20" y="656" width="374" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="zcg-4c-FWD"/>
+                    </constraints>
+                    <state key="normal" title="Submit"/>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PROMOCODE" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GOx-JM-IkY">
+                    <rect key="frame" x="20" y="318" width="374" height="40"/>
+                    <color key="textColor" red="0.1492176056" green="0.31720623370000001" blue="0.95691615340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCk-4x-x5Q">
+                    <rect key="frame" x="20" y="366" width="374" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="whF-13-EqY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="PCk-4x-x5Q" firstAttribute="trailing" secondItem="GOx-JM-IkY" secondAttribute="trailing" id="5bR-Zd-fnv"/>
+                <constraint firstItem="GOx-JM-IkY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GHM-WH-lvP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="nIL-yC-bcL" secondAttribute="bottom" constant="20" id="HFG-a8-TmT"/>
+                <constraint firstItem="PCk-4x-x5Q" firstAttribute="top" secondItem="GOx-JM-IkY" secondAttribute="bottom" constant="8" id="NWJ-L1-oGi"/>
+                <constraint firstItem="GOx-JM-IkY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Qqz-yt-AiA"/>
+                <constraint firstItem="PCk-4x-x5Q" firstAttribute="leading" secondItem="GOx-JM-IkY" secondAttribute="leading" id="ZeO-GS-bz5"/>
+                <constraint firstItem="nIL-yC-bcL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="gY5-PW-g5K"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GOx-JM-IkY" secondAttribute="trailing" constant="20" id="hv6-pW-ZuA"/>
+                <constraint firstItem="GOx-JM-IkY" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-30" id="wXT-95-BEY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nIL-yC-bcL" secondAttribute="trailing" constant="20" id="xqd-mU-2FB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="152.44565217391306"/>
+        </view>
+    </objects>
+</document>
