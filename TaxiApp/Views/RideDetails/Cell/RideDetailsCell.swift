@@ -15,16 +15,6 @@ class RideDetailsCell: UITableViewCell {
     @IBOutlet weak var viewDriverDetail: DriverDetail!
     var delegate: HandleDriverDetailsToggle?
     
-    var gradientLayer: CAGradientLayer = {
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [UIColor.clear.cgColor, UIColor.clear.cgColor, UIColor.black.cgColor]
-        gradientLayer.startPoint = CGPoint(x: 0.5, y: 1.0)
-        gradientLayer.endPoint = CGPoint(x: 0.5, y: 0.0)
-        gradientLayer.locations = [0, 1]
-        gradientLayer.frame = CGRect.zero
-       return gradientLayer
-    }()
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         setupUI()
@@ -40,9 +30,6 @@ class RideDetailsCell: UITableViewCell {
         let tapViewDriveDetails = UITapGestureRecognizer(target: self, action: #selector(handleToggleDriverDetails))
         viewDriverDetail.addGestureRecognizer(tapViewDriveDetails)
         viewDriverDetail.setTypeView(type: .showAllInfos)
-        
-//        contentView.layer.insertSublayer(gradientLayer, at: 0)
-//        gradientLayer.frame = contentView.bounds
     }
     
     @objc func handleToggleDriverDetails() {

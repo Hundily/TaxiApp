@@ -20,6 +20,10 @@
 		A035AB90244E1D1A0044A8D1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035AB8F244E1D1A0044A8D1 /* HomeVC.swift */; };
 		A035AB92244E1D200044A8D1 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035AB91244E1D200044A8D1 /* MenuVC.swift */; };
 		A035AB94244E20980044A8D1 /* HomeVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035AB93244E20980044A8D1 /* HomeVCDelegate.swift */; };
+		A052F1582469771200D361F8 /* DriverProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052F1562469771200D361F8 /* DriverProfileCell.swift */; };
+		A052F1592469771200D361F8 /* DriverProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A052F1572469771200D361F8 /* DriverProfileCell.xib */; };
+		A052F15D24697C3800D361F8 /* DriveDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052F15C24697C3800D361F8 /* DriveDetailsVC.swift */; };
+		A052F163246985CA00D361F8 /* RideDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052F162246985CA00D361F8 /* RideDetailsVC.swift */; };
 		A06B344F24478406003745B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B344E24478406003745B3 /* AppDelegate.swift */; };
 		A06B345124478406003745B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B345024478406003745B3 /* SceneDelegate.swift */; };
 		A06B345B24478407003745B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06B345924478407003745B3 /* LaunchScreen.storyboard */; };
@@ -78,12 +82,10 @@
 		A06B34EE24478D5C003745B3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06B34EC24478D5B003745B3 /* SignUpVC.xib */; };
 		A0D275412448E100008F37FC /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D275402448E100008F37FC /* UITextField+Extensions.swift */; };
 		A0D275432448E216008F37FC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D275422448E216008F37FC /* CustomTextField.swift */; };
-		A0E5CEEE24634C6D00E2C07D /* DriverDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5CEEC24634C6D00E2C07D /* DriverDetailsVC.swift */; };
-		A0E5CEEF24634C6D00E2C07D /* DriverDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E5CEED24634C6D00E2C07D /* DriverDetailsVC.xib */; };
+		A0E5CEF224636D9300E2C07D /* InfoProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E5CEF124636D9300E2C07D /* InfoProfile.xib */; };
+		A0E5CEF424636F7800E2C07D /* InfoProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5CEF324636F7800E2C07D /* InfoProfile.swift */; };
 		A0EA19A92459C064001D2C20 /* StartEndAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */; };
 		A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */; };
-		A0EA19B12459DAC4001D2C20 /* RideDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */; };
-		A0EA19B22459DAC4001D2C20 /* RideDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */; };
 		A0EA19B62459F24B001D2C20 /* RideDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19B42459F24B001D2C20 /* RideDetailsCell.swift */; };
 		A0EA19B72459F24B001D2C20 /* RideDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19B52459F24B001D2C20 /* RideDetailsCell.xib */; };
 		A0EA19BB2459FCF6001D2C20 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19BA2459FCF6001D2C20 /* DriverDetail.swift */; };
@@ -108,6 +110,10 @@
 		A035AB8F244E1D1A0044A8D1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A035AB91244E1D200044A8D1 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		A035AB93244E20980044A8D1 /* HomeVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCDelegate.swift; sourceTree = "<group>"; };
+		A052F1562469771200D361F8 /* DriverProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileCell.swift; sourceTree = "<group>"; };
+		A052F1572469771200D361F8 /* DriverProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverProfileCell.xib; sourceTree = "<group>"; };
+		A052F15C24697C3800D361F8 /* DriveDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveDetailsVC.swift; sourceTree = "<group>"; };
+		A052F162246985CA00D361F8 /* RideDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsVC.swift; sourceTree = "<group>"; };
 		A06B344B24478406003745B3 /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B344E24478406003745B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06B345024478406003745B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,12 +175,10 @@
 		A0D275402448E100008F37FC /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		A0D275422448E216008F37FC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A0D275442448F668008F37FC /* TaxiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxiApp.entitlements; sourceTree = "<group>"; };
-		A0E5CEEC24634C6D00E2C07D /* DriverDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetailsVC.swift; sourceTree = "<group>"; };
-		A0E5CEED24634C6D00E2C07D /* DriverDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverDetailsVC.xib; sourceTree = "<group>"; };
+		A0E5CEF124636D9300E2C07D /* InfoProfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoProfile.xib; sourceTree = "<group>"; };
+		A0E5CEF324636F7800E2C07D /* InfoProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoProfile.swift; sourceTree = "<group>"; };
 		A0EA19A82459C064001D2C20 /* StartEndAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartEndAddressView.swift; sourceTree = "<group>"; };
 		A0EA19AC2459C081001D2C20 /* StartEndAddressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartEndAddressView.xib; sourceTree = "<group>"; };
-		A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsVC.swift; sourceTree = "<group>"; };
-		A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideDetailsVC.xib; sourceTree = "<group>"; };
 		A0EA19B42459F24B001D2C20 /* RideDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsCell.swift; sourceTree = "<group>"; };
 		A0EA19B52459F24B001D2C20 /* RideDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideDetailsCell.xib; sourceTree = "<group>"; };
 		A0EA19BA2459FCF6001D2C20 /* DriverDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetail.swift; sourceTree = "<group>"; };
@@ -272,6 +276,15 @@
 			children = (
 				A0165330245364E70009FA26 /* RideHistoryCell.swift */,
 				A0165331245364E70009FA26 /* RideHistoryCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A052F155246976F100D361F8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A052F1562469771200D361F8 /* DriverProfileCell.swift */,
+				A052F1572469771200D361F8 /* DriverProfileCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -554,15 +567,25 @@
 		A0E5CEE72460A3F400E2C07D /* DriveDetails */ = {
 			isa = PBXGroup;
 			children = (
-				A0E5CEEC24634C6D00E2C07D /* DriverDetailsVC.swift */,
-				A0E5CEED24634C6D00E2C07D /* DriverDetailsVC.xib */,
+				A052F155246976F100D361F8 /* Cell */,
+				A052F15C24697C3800D361F8 /* DriveDetailsVC.swift */,
 			);
 			path = DriveDetails;
+			sourceTree = "<group>";
+		};
+		A0E5CEF024636D2900E2C07D /* InfoProfile */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5CEF124636D9300E2C07D /* InfoProfile.xib */,
+				A0E5CEF324636F7800E2C07D /* InfoProfile.swift */,
+			);
+			path = InfoProfile;
 			sourceTree = "<group>";
 		};
 		A0EA19A72459BE03001D2C20 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				A0E5CEF024636D2900E2C07D /* InfoProfile */,
 				A0EA19B92459FCD5001D2C20 /* DriverDetail */,
 				A0EA19B82459FCCF001D2C20 /* StartEndAddressView */,
 			);
@@ -573,8 +596,7 @@
 			isa = PBXGroup;
 			children = (
 				A0EA19B32459F231001D2C20 /* Cell */,
-				A0EA19AF2459DAC4001D2C20 /* RideDetailsVC.swift */,
-				A0EA19B02459DAC4001D2C20 /* RideDetailsVC.xib */,
+				A052F162246985CA00D361F8 /* RideDetailsVC.swift */,
 			);
 			path = RideDetails;
 			sourceTree = "<group>";
@@ -680,7 +702,7 @@
 				A06B34D924478684003745B3 /* SFUIText-Medium.ttf in Resources */,
 				A06B345B24478407003745B3 /* LaunchScreen.storyboard in Resources */,
 				A06B34E124478684003745B3 /* SFUIText-MediumItalic.ttf in Resources */,
-				A0E5CEEF24634C6D00E2C07D /* DriverDetailsVC.xib in Resources */,
+				A052F1592469771200D361F8 /* DriverProfileCell.xib in Resources */,
 				A06B34DE24478684003745B3 /* SFUIText-Semibold.ttf in Resources */,
 				A06B34E424478684003745B3 /* SFUIText-RegularItalic.ttf in Resources */,
 				A0EA19BD2459FD00001D2C20 /* DriverDetail.xib in Resources */,
@@ -689,8 +711,8 @@
 				A06B34EE24478D5C003745B3 /* SignUpVC.xib in Resources */,
 				A06B34D524478684003745B3 /* Assets.xcassets in Resources */,
 				A06B34E224478684003745B3 /* SFUIText-SemiboldItalic.ttf in Resources */,
+				A0E5CEF224636D9300E2C07D /* InfoProfile.xib in Resources */,
 				A06B34DD24478684003745B3 /* SFUIText-Light.ttf in Resources */,
-				A0EA19B22459DAC4001D2C20 /* RideDetailsVC.xib in Resources */,
 				A06B34DF24478684003745B3 /* SFUIText-LightItalic.ttf in Resources */,
 				A06B34D824478684003745B3 /* Localizable.strings in Resources */,
 				A06B34D624478684003745B3 /* loading.json in Resources */,
@@ -805,7 +827,6 @@
 				A035AB90244E1D1A0044A8D1 /* HomeVC.swift in Sources */,
 				A06B34A62447865C003745B3 /* LoadingManager.swift in Sources */,
 				A0D275412448E100008F37FC /* UITextField+Extensions.swift in Sources */,
-				A0E5CEEE24634C6D00E2C07D /* DriverDetailsVC.swift in Sources */,
 				A06B349B2447865C003745B3 /* Configuration.swift in Sources */,
 				A06B34AD2447865C003745B3 /* UISearchBar+Extensions.swift in Sources */,
 				A06B34B22447865C003745B3 /* CustomButton.swift in Sources */,
@@ -827,12 +848,15 @@
 				A06B34A22447865C003745B3 /* DefaultSessionManager.swift in Sources */,
 				A011BA562451BF5F009A135D /* MenuOptionCell.swift in Sources */,
 				A06B34D324478684003745B3 /* Fonts.swift in Sources */,
+				A052F1582469771200D361F8 /* DriverProfileCell.swift in Sources */,
 				A06B34992447865C003745B3 /* Environment.swift in Sources */,
+				A052F15D24697C3800D361F8 /* DriveDetailsVC.swift in Sources */,
 				A06B345124478406003745B3 /* SceneDelegate.swift in Sources */,
 				A06B34B42447865C003745B3 /* LoadingViewCell.swift in Sources */,
 				A0165332245364E70009FA26 /* RideHistoryCell.swift in Sources */,
 				A06B34AE2447865C003745B3 /* Codable+Extensions.swift in Sources */,
 				A06B34AB2447865C003745B3 /* String+Extensions.swift in Sources */,
+				A0E5CEF424636F7800E2C07D /* InfoProfile.swift in Sources */,
 				A011BA652451DB67009A135D /* RideHistoryVC.swift in Sources */,
 				A06B34662447859B003745B3 /* SplashVC.swift in Sources */,
 				A0EA19A92459C064001D2C20 /* StartEndAddressView.swift in Sources */,
@@ -843,7 +867,6 @@
 				A06B34E9244789F7003745B3 /* SignInVC.swift in Sources */,
 				A06B34B52447865C003745B3 /* ToolBarButtonKeyboard.swift in Sources */,
 				A035AB94244E20980044A8D1 /* HomeVCDelegate.swift in Sources */,
-				A0EA19B12459DAC4001D2C20 /* RideDetailsVC.swift in Sources */,
 				A06B34D424478684003745B3 /* Colors.swift in Sources */,
 				A035AB92244E1D200044A8D1 /* MenuVC.swift in Sources */,
 				A06B34A42447865C003745B3 /* ParamsBuilder.swift in Sources */,
@@ -853,6 +876,7 @@
 				A06B34A32447865C003745B3 /* BaseWebservice.swift in Sources */,
 				A011BA622451DB54009A135D /* PaymentVC.swift in Sources */,
 				A06B349D2447865C003745B3 /* PaymentService.swift in Sources */,
+				A052F163246985CA00D361F8 /* RideDetailsVC.swift in Sources */,
 				A06B34A52447865C003745B3 /* HTTPStatusCode.swift in Sources */,
 				A06B349A2447865C003745B3 /* API.swift in Sources */,
 			);
