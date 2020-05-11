@@ -13,7 +13,6 @@
 		A011BA5F2451DA43009A135D /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA5E2451DA43009A135D /* SupportVC.swift */; };
 		A011BA622451DB54009A135D /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA612451DB54009A135D /* PaymentVC.swift */; };
 		A011BA652451DB67009A135D /* RideHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA642451DB67009A135D /* RideHistoryVC.swift */; };
-		A011BA6824520551009A135D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA6724520551009A135D /* ProfileVC.swift */; };
 		A0165332245364E70009FA26 /* RideHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0165330245364E70009FA26 /* RideHistoryCell.swift */; };
 		A0165333245364E70009FA26 /* RideHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0165331245364E70009FA26 /* RideHistoryCell.xib */; };
 		A035AB8E244E1D110044A8D1 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035AB8D244E1D110044A8D1 /* ContainerVC.swift */; };
@@ -24,6 +23,8 @@
 		A052F1592469771200D361F8 /* DriverProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A052F1572469771200D361F8 /* DriverProfileCell.xib */; };
 		A052F15D24697C3800D361F8 /* DriveDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052F15C24697C3800D361F8 /* DriveDetailsVC.swift */; };
 		A052F163246985CA00D361F8 /* RideDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052F162246985CA00D361F8 /* RideDetailsVC.swift */; };
+		A052F1682469930400D361F8 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052F1662469930400D361F8 /* ProfileVC.swift */; };
+		A052F1692469930400D361F8 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A052F1672469930400D361F8 /* ProfileVC.xib */; };
 		A06B344F24478406003745B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B344E24478406003745B3 /* AppDelegate.swift */; };
 		A06B345124478406003745B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B345024478406003745B3 /* SceneDelegate.swift */; };
 		A06B345B24478407003745B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06B345924478407003745B3 /* LaunchScreen.storyboard */; };
@@ -103,7 +104,6 @@
 		A011BA5E2451DA43009A135D /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
 		A011BA612451DB54009A135D /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		A011BA642451DB67009A135D /* RideHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryVC.swift; sourceTree = "<group>"; };
-		A011BA6724520551009A135D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		A0165330245364E70009FA26 /* RideHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryCell.swift; sourceTree = "<group>"; };
 		A0165331245364E70009FA26 /* RideHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideHistoryCell.xib; sourceTree = "<group>"; };
 		A035AB8D244E1D110044A8D1 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
@@ -114,6 +114,8 @@
 		A052F1572469771200D361F8 /* DriverProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverProfileCell.xib; sourceTree = "<group>"; };
 		A052F15C24697C3800D361F8 /* DriveDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveDetailsVC.swift; sourceTree = "<group>"; };
 		A052F162246985CA00D361F8 /* RideDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsVC.swift; sourceTree = "<group>"; };
+		A052F1662469930400D361F8 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A052F1672469930400D361F8 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		A06B344B24478406003745B3 /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B344E24478406003745B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06B345024478406003745B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,7 +268,8 @@
 		A011BA662452053C009A135D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				A011BA6724520551009A135D /* ProfileVC.swift */,
+				A052F1662469930400D361F8 /* ProfileVC.swift */,
+				A052F1672469930400D361F8 /* ProfileVC.xib */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -701,6 +704,7 @@
 				A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */,
 				A06B34D924478684003745B3 /* SFUIText-Medium.ttf in Resources */,
 				A06B345B24478407003745B3 /* LaunchScreen.storyboard in Resources */,
+				A052F1692469930400D361F8 /* ProfileVC.xib in Resources */,
 				A06B34E124478684003745B3 /* SFUIText-MediumItalic.ttf in Resources */,
 				A052F1592469771200D361F8 /* DriverProfileCell.xib in Resources */,
 				A06B34DE24478684003745B3 /* SFUIText-Semibold.ttf in Resources */,
@@ -825,13 +829,13 @@
 				A06B34AA2447865C003745B3 /* UIView+Extensions.swift in Sources */,
 				A011BA5C2451D7E1009A135D /* PromoCodeVC.swift in Sources */,
 				A035AB90244E1D1A0044A8D1 /* HomeVC.swift in Sources */,
+				A052F1682469930400D361F8 /* ProfileVC.swift in Sources */,
 				A06B34A62447865C003745B3 /* LoadingManager.swift in Sources */,
 				A0D275412448E100008F37FC /* UITextField+Extensions.swift in Sources */,
 				A06B349B2447865C003745B3 /* Configuration.swift in Sources */,
 				A06B34AD2447865C003745B3 /* UISearchBar+Extensions.swift in Sources */,
 				A06B34B22447865C003745B3 /* CustomButton.swift in Sources */,
 				A06B344F24478406003745B3 /* AppDelegate.swift in Sources */,
-				A011BA6824520551009A135D /* ProfileVC.swift in Sources */,
 				A06B34A12447865C003745B3 /* Webservice.swift in Sources */,
 				A06B34A82447865C003745B3 /* Region+Extensions.swift in Sources */,
 				A035AB8E244E1D110044A8D1 /* ContainerVC.swift in Sources */,

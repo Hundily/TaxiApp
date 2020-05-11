@@ -105,7 +105,9 @@ class MenuVC: UIViewController {
     
     @objc func handleEditUserToggle() {
         let profileVC = ProfileVC()
-        navigationController?.present(profileVC, animated: true, completion: nil)
+        navigationController?.pushViewController(profileVC, animated: true)
+//        profileVC.modalPresentationStyle = .fullScreen
+//        navigationController?.present(profileVC, animated: true, completion: nil)
     }
     
     @objc func handleSignOutToggle() {
