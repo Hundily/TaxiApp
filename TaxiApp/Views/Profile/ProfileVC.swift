@@ -17,14 +17,8 @@ class ProfileVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationController?.navigationBar.isHidden = false
-        
-        viewInfos.layer.borderWidth = 1
-        viewInfos.layer.borderColor = ColorName.grayBorder.color.cgColor
-        viewInfos.layer.cornerRadius = 16
 
+        viewInfos.addShandowView(radius: 4, cornerRadius: 16)
     }
-
-
 }

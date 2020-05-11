@@ -35,6 +35,7 @@ internal enum Asset {
   internal static let photoDriver = ImageAsset(name: "photo_driver")
   internal static let photoProfile = ImageAsset(name: "photo_profile")
   internal static let photoUser = ImageAsset(name: "photo_user")
+  internal static let placeHolder = ImageAsset(name: "place_holder")
   internal static let shapeStroke = ImageAsset(name: "shape_stroke")
   internal static let star = ImageAsset(name: "star")
   internal static let triangle = ImageAsset(name: "triangle")
