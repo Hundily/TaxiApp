@@ -11,7 +11,6 @@
 		A011BA592451C614009A135D /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA582451C614009A135D /* MenuOption.swift */; };
 		A011BA5C2451D7E1009A135D /* PromoCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA5B2451D7E1009A135D /* PromoCodeVC.swift */; };
 		A011BA5F2451DA43009A135D /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA5E2451DA43009A135D /* SupportVC.swift */; };
-		A011BA622451DB54009A135D /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA612451DB54009A135D /* PaymentVC.swift */; };
 		A011BA652451DB67009A135D /* RideHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011BA642451DB67009A135D /* RideHistoryVC.swift */; };
 		A0165332245364E70009FA26 /* RideHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0165330245364E70009FA26 /* RideHistoryCell.swift */; };
 		A0165333245364E70009FA26 /* RideHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0165331245364E70009FA26 /* RideHistoryCell.xib */; };
@@ -95,6 +94,9 @@
 		A0EA19B72459F24B001D2C20 /* RideDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19B52459F24B001D2C20 /* RideDetailsCell.xib */; };
 		A0EA19BB2459FCF6001D2C20 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA19BA2459FCF6001D2C20 /* DriverDetail.swift */; };
 		A0EA19BD2459FD00001D2C20 /* DriverDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA19BC2459FD00001D2C20 /* DriverDetail.xib */; };
+		A0EB665024730CF500FFDFAF /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB664F24730CF500FFDFAF /* PaymentVC.swift */; };
+		A0EB665424730D7300FFDFAF /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB665224730D7300FFDFAF /* PaymentCell.swift */; };
+		A0EB665524730D7300FFDFAF /* PaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EB665324730D7300FFDFAF /* PaymentCell.xib */; };
 		E2822C14134E0135437DC530 /* Pods_TaxiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1912B59B9E4F060D330B6011 /* Pods_TaxiApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -106,7 +108,6 @@
 		A011BA582451C614009A135D /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
 		A011BA5B2451D7E1009A135D /* PromoCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeVC.swift; sourceTree = "<group>"; };
 		A011BA5E2451DA43009A135D /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
-		A011BA612451DB54009A135D /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		A011BA642451DB67009A135D /* RideHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryVC.swift; sourceTree = "<group>"; };
 		A0165330245364E70009FA26 /* RideHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryCell.swift; sourceTree = "<group>"; };
 		A0165331245364E70009FA26 /* RideHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideHistoryCell.xib; sourceTree = "<group>"; };
@@ -193,6 +194,9 @@
 		A0EA19B52459F24B001D2C20 /* RideDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideDetailsCell.xib; sourceTree = "<group>"; };
 		A0EA19BA2459FCF6001D2C20 /* DriverDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetail.swift; sourceTree = "<group>"; };
 		A0EA19BC2459FD00001D2C20 /* DriverDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriverDetail.xib; sourceTree = "<group>"; };
+		A0EB664F24730CF500FFDFAF /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		A0EB665224730D7300FFDFAF /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		A0EB665324730D7300FFDFAF /* PaymentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,7 +264,8 @@
 		A011BA602451DB49009A135D /* Payment */ = {
 			isa = PBXGroup;
 			children = (
-				A011BA612451DB54009A135D /* PaymentVC.swift */,
+				A0EB665124730D5D00FFDFAF /* Cell */,
+				A0EB664F24730CF500FFDFAF /* PaymentVC.swift */,
 			);
 			path = Payment;
 			sourceTree = "<group>";
@@ -313,8 +318,8 @@
 		A052F16F2469D41B00D361F8 /* Promo */ = {
 			isa = PBXGroup;
 			children = (
-				A011BA5B2451D7E1009A135D /* PromoCodeVC.swift */,
 				A052F16A2469BF2C00D361F8 /* Cell */,
+				A011BA5B2451D7E1009A135D /* PromoCodeVC.swift */,
 			);
 			path = Promo;
 			sourceTree = "<group>";
@@ -667,6 +672,15 @@
 			path = DriverDetail;
 			sourceTree = "<group>";
 		};
+		A0EB665124730D5D00FFDFAF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB665224730D7300FFDFAF /* PaymentCell.swift */,
+				A0EB665324730D7300FFDFAF /* PaymentCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -738,6 +752,7 @@
 				A06B34EA244789F7003745B3 /* SignInVC.xib in Resources */,
 				A052F1742469D48300D361F8 /* AddPromoCodeVC.xib in Resources */,
 				A0EA19B72459F24B001D2C20 /* RideDetailsCell.xib in Resources */,
+				A0EB665524730D7300FFDFAF /* PaymentCell.xib in Resources */,
 				A0EA19AD2459C081001D2C20 /* StartEndAddressView.xib in Resources */,
 				A06B34D924478684003745B3 /* SFUIText-Medium.ttf in Resources */,
 				A06B345B24478407003745B3 /* LaunchScreen.storyboard in Resources */,
@@ -881,6 +896,7 @@
 				A06B34D224478684003745B3 /* Assets.swift in Sources */,
 				A06B349E2447865C003745B3 /* ContactService.swift in Sources */,
 				A06B34ED24478D5C003745B3 /* SignUpVC.swift in Sources */,
+				A0EB665424730D7300FFDFAF /* PaymentCell.swift in Sources */,
 				A06B34A02447865C003745B3 /* HTTPMethod.swift in Sources */,
 				A011BA5F2451DA43009A135D /* SupportVC.swift in Sources */,
 				A0D275432448E216008F37FC /* CustomTextField.swift in Sources */,
@@ -911,6 +927,7 @@
 				A06B34B52447865C003745B3 /* ToolBarButtonKeyboard.swift in Sources */,
 				A035AB94244E20980044A8D1 /* HomeVCDelegate.swift in Sources */,
 				A06B34D424478684003745B3 /* Colors.swift in Sources */,
+				A0EB665024730CF500FFDFAF /* PaymentVC.swift in Sources */,
 				A035AB92244E1D200044A8D1 /* MenuVC.swift in Sources */,
 				A06B34A42447865C003745B3 /* ParamsBuilder.swift in Sources */,
 				A0EA19BB2459FCF6001D2C20 /* DriverDetail.swift in Sources */,
@@ -918,7 +935,6 @@
 				A06B34A72447865C003745B3 /* CodeViewProtocol.swift in Sources */,
 				A052F1732469D48300D361F8 /* AddPromoCodeVC.swift in Sources */,
 				A06B34A32447865C003745B3 /* BaseWebservice.swift in Sources */,
-				A011BA622451DB54009A135D /* PaymentVC.swift in Sources */,
 				A06B349D2447865C003745B3 /* PaymentService.swift in Sources */,
 				A052F163246985CA00D361F8 /* RideDetailsVC.swift in Sources */,
 				A06B34A52447865C003745B3 /* HTTPStatusCode.swift in Sources */,
